@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Stems/stems-styles.css" />
+    <title>Pre-Sessions</title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <a href="../index.html" class="navigation__title navigation--hover"
+        >Inicio</a
+      >
+      <a href="./session-p1.html" class="navigation__title navigation--hover">
+        Reset</a
+      >
+    </nav>
+    <section class="section">
+      <h1 class="section__title">PRE-SESSION</h1>
+      <p class="section__p">
+        Antes de siquiera empezar la sesión, vamos a ver esto:
+      </p>
+    </section>
+
+    <form action="./session-p1.html" class="formulario">
+      <div class="formulatio__formContainer">
+        <div class="formulatio__formContainer__label">
+          <label for="lb1" 
+            >Check cue with Cuedb</label
+          >
+
+          <input
+            type="checkbox"
+            name="RenameDuplicate"
+            id="lb1"
+            required
+            class="formulario__checkbox"
+          />
+        </div>
+        <div class="formulatio__formContainer__label">
+        <label for="lb2" 
+          >Check cue with all cues</label
+        >
+
+        <input
+          type="checkbox"
+          name="CambioCorte"
+          id="lb2"
+          required
+          class="formulario__checkbox"
+        />
+      </div>
+    
+      <div class="formulatio__formContainer__label">
+        <button type="submit" class="formulatio__formContainer__label formulatio__formContainer--btn">
+          Continuar
+        </button>
+      </div>
+    </form>
+  </body>
+</html>
