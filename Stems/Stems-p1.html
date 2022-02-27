@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./stems-styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./stems-styles.css" />
     <title>STEMS</title>
-</head>
-<body>
-    <h1>PARTE 1 </h1>
-    <form action="" class="form">
-        <label for="lb1"><h2>Rename-Duplicate Session</h2></label>
-        <input type="checkbox" id="lb1" name="send1">
-
-    </form>
-    <a href="./stems-p2.html">Estoy listo</a>
-
-    <a href="../index.html">INICIO</a>
-</body>
+  </head>
+  <body>
+    <nav>
+      <a href="../index.html">Inicio</a>
+      <a href="./Stems-p1.html"> Reset</a>
+    </nav>
+    <section>
+      <h1>PARTE 1</h1>
+      <p>No hay que entrar a la sesión de cubase, todo esto es en el finder</p>
+        <form action="./stems-p2.html">
+            <label for="lb1">Rename and duplicate</label>
+            <input type="checkbox" name="RenameDuplicate" id="lb1" required>
+            <label for="lb2">¿Hay cambio de corte?</label>
+            <input type="checkbox" name="CambioCorte" id="lb2" required>
+            <label for="lb3">Renombrar _STEMS</label>
+            <input type="checkbox" name="_STEMS" id="lb3" required>
+            <button type="submit">Continuar</button>
+        </form>
+    </section>
+  </body>
 </html>
