@@ -8,22 +8,65 @@
     <title>STEMS</title>
   </head>
   <body>
-    <nav>
-      <a href="../index.html">Inicio</a>
-      <a href="./Stems-p1.html"> Reset</a>
+    <nav class="navigation">
+      <a href="../index.html" class="navigation__title navigation--hover"
+        >Inicio</a
+      >
+      <a href="./Stems-p1.html" class="navigation__title navigation--hover">
+        Reset</a
+      >
     </nav>
-    <section>
-      <h1>PARTE 1</h1>
-      <p>No hay que entrar a la sesión de cubase, todo esto es en el finder</p>
-        <form action="./stems-p2.html">
-            <label for="lb1">Rename and duplicate</label>
-            <input type="checkbox" name="RenameDuplicate" id="lb1" required>
-            <label for="lb2">¿Hay cambio de corte?</label>
-            <input type="checkbox" name="CambioCorte" id="lb2" required>
-            <label for="lb3">Renombrar _STEMS</label>
-            <input type="checkbox" name="_STEMS" id="lb3" required>
-            <button type="submit">Continuar</button>
-        </form>
+    <section class="section">
+      <h1 class="section__title">PARTE 1</h1>
+      <p class="section__p">
+        No hay que entrar a la sesión de Cubase, todo esto es en el finder
+      </p>
     </section>
+
+    <form action="./stems-p2.html" class="formulario">
+      <div class="formulatio__formContainer">
+        <div class="formulatio__formContainer__label">
+          <label for="lb1" 
+            >Rename and duplicate</label
+          >
+
+          <input
+            type="checkbox"
+            name="RenameDuplicate"
+            id="lb1"
+            required
+            class="formulario__checkbox"
+          />
+        </div>
+        <div class="formulatio__formContainer__label">
+        <label for="lb2" 
+          >¿Hay cambio de corte?</label
+        >
+
+        <input
+          type="checkbox"
+          name="CambioCorte"
+          id="lb2"
+          required
+          class="formulario__checkbox"
+        />
+      </div>
+      <div class="formulatio__formContainer__label">
+        <label for="lb3" 
+          >Renombrar _STEMS</label
+        >
+        <input
+          type="checkbox"
+          name="_STEMS"
+          id="lb3"
+          required
+          class="formulario__checkbox"
+        />
+      </div class="formulatio__formContainer__label">
+        <button type="submit" class="formulatio__formContainer__label formulatio__formContainer--btn">
+          Continuar
+        </button>
+      </div>
+    </form>
   </body>
 </html>

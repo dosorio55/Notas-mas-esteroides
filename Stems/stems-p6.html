@@ -5,25 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./stems-styles.css" />
-    <title>STEMS</title>
+    <title>STEMS PART 6</title>
   </head>
   <body>
-    <nav>
-      <a href="../index.html">Inicio</a>
-      <a href="./Stems-p1.html"> Reset</a>
+    <nav class="navigation">
+      <a href="../index.html" class="navigation__title navigation--hover"
+        >Inicio</a
+      >
+      <a href="./Stems-p1.html" class="navigation__title navigation--hover">
+        Reset</a
+      >
     </nav>
-    <section>
-      <h1>STEMS PARTE 6</h1>
-      <p>Solo checkear Niveles y estamos listos!</p>
-      <form action="../index.html">
-        <label for="lb1">Checkear niveles</label>
-        <input type="checkbox" name="LockTempo" id="lb1" required />
-        <label for="lb2">Generar queue</label>
-        <input type="checkbox" name="SFXBass" id="lb2" required />
-        <label for="lb3">Revisar TC, nombre del queue</label>
-        <input type="checkbox" name="DoblesPaneos" id="lb3" required />
-        <button type="submit">Finalizar</button>
-      </form>
+    <section class="section">
+      <h1 class="section__title">PARTE 6</h1>
+      <p class="section__p">
+        Solo checkear Niveles, hacer la cola y estamos listos!
+      </p>
     </section>
+
+    <form action="../index.html" class="formulario">
+      <div class="formulatio__formContainer">
+        <div class="formulatio__formContainer__label">
+          <label for="lb1" 
+            >Checkear niveles</label
+          >
+
+          <input
+            type="checkbox"
+            name="RenameDuplicate"
+            id="lb1"
+            required
+            class="formulario__checkbox"
+          />
+        </div>
+        <div class="formulatio__formContainer__label">
+        <label for="lb2" 
+          >Revisar TC, nombre del queue</label
+        >
+
+        <input
+          type="checkbox"
+          name="CambioCorte"
+          id="lb2"
+          required
+          class="formulario__checkbox"
+        />
+      </div>
+      <div class="formulatio__formContainer__label">
+        <label for="lb3" 
+          >Generar queue</label
+        >
+        <input
+          type="checkbox"
+          name="_STEMS"
+          id="lb3"
+          required
+          class="formulario__checkbox"
+        />
+      </div class="formulatio__formContainer__label">
+        <button type="submit" class="formulatio__formContainer__label formulatio__formContainer--btn">
+          Finalizar
+        </button>
+      </div>
+    </form>
   </body>
 </html>
+
+
+
+
+
+
+
+
+

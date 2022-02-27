@@ -5,24 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./stems-styles.css" />
-    <title>STEMS</title>
+    <title>STEMS PART 2</title>
   </head>
   <body>
-    <nav>
-      <a href="../index.html">Inicio</a>
-      <a href="./Stems-p1.html"> Reset</a>
+    <nav class="navigation">
+      <a href="../index.html" class="navigation__title navigation--hover"
+        >Inicio</a
+      >
+      <a href="./Stems-p1.html" class="navigation__title navigation--hover">
+        Reset</a
+      >
     </nav>
-    <section>
-      <h1> STEMS PARTE 2</h1>
-      <p>Ahora si abrimos la sesión, vamos a ver cosas SOLAMENTE con el <strong>VIDEO</strong>.</p>
-        <form action="./stems-p3.html">
-            <label for="lb1">Cambio de corte</label>
-            <input type="checkbox" name="CambioCorte" id="lb1" required>
-            <label for="lb2">Sync Timecode session</label>
-            <input type="checkbox" name="TCSession" id="lb2" required>
-            
-            <button type="submit">Continuar</button>
-        </form>
+    <section class="section">
+      <h1 class="section__title">PARTE 2</h1>
+      <p class="section__p">
+        Ahora si abrimos la sesión, vamos a ver cosas SOLAMENTE con el <strong>VIDEO</strong>.
+      </p>
     </section>
+
+    <form action="./stems-p3.html" class="formulario">
+      <div class="formulatio__formContainer">
+        <div class="formulatio__formContainer__label">
+          <label for="lb1" 
+            >Cambio de corte</label
+          >
+
+          <input
+            type="checkbox"
+            name="CambioCorte"
+            id="lb1"
+            required
+            class="formulario__checkbox"
+          />
+        </div>
+        <div class="formulatio__formContainer__label">
+        <label for="lb2" 
+          >Sync Timecode session</label
+        >
+
+        <input
+          type="checkbox"
+          name="CambioCorte"
+          id="lb2"
+          required
+          class="formulario__checkbox"
+        />
+      </div>
+      <div class="formulatio__formContainer__label">
+        <label for="lb3" 
+          >Renombrar _STEMS</label
+        >
+        <input
+          type="checkbox"
+          name="_STEMS"
+          id="lb3"
+          required
+          class="formulario__checkbox"
+        />
+      </div class="formulatio__formContainer__label">
+        <button type="submit" class="formulatio__formContainer__label formulatio__formContainer--btn">
+          Continuar
+        </button>
+      </div>
+    </form>
   </body>
 </html>
